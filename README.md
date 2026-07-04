@@ -8,8 +8,9 @@ Multi Advanced Tool v2.0 for Termux.
 termux-setup-storage
 pkg update -y && pkg upgrade -y
 pkg install git python -y
-git clone https://github.com/akashdeepx/HostScanX.git
-cd HostScanX
+git clone https://github.com/LogicScanX/LogicScanX.git
+cd LogicScanX
+chmod +x install.sh
 bash install.sh
 python LogicScanX.py
 ```
